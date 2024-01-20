@@ -1,0 +1,404 @@
+<!DOCTYPE = html>
+<html>
+	<head>
+		<title>
+			Một số hiểu biết về HTML<br>			
+		</title>
+	</head>
+		<body bgcolor = violet>
+		<p align = "center"><b>WELCOME TO MY HTML PAGE</b></p>
+			<p> <b> I. Tất cả các thẻ trong HTML</b><br>
+			<b>1. !DOCTYPE</b>: xác định cho trình duyệt biết phiên bản HTML mà bạn đang sử dụng<br>
+			<b>2. html</b>: xác định gốc của một tài liệu HTML<br>
+			<b>3. head</b>: xác định phần đầu của tài liệu HTML (chứa các thẻ cung cấp	thông tin cho trang web)<br>
+			<b>4. title</b>: xác định tiêu đề của trang web<br>
+			<b>5. body</b>: xác định phần thân của tài liệu HTML<br>
+			<b>6. h1 - h6</b>: tạo những đề mục quan trọng trong trang web<br>
+			<b>7. p</b>: xác định một đoạn văn bản<br>
+			<b>8. br</b>: chèn một ngắt xuống dòng<br>
+			<b>9. hr</b>: tạo một đường kẻ phân cách nằm ngang<br>
+			<b>10. !--</b>: xác định một đoạn chú thích<br>
+			<b>11. abbr</b>: định nghĩa một từ viết tắt<br>
+			<b>12. address</b>: xác định thông tin liên hệ của tác giả (hoặc chủ sở hữu) trang web<br>
+			<b>13. bdo</b>: điều hướng một đoạn văn bản được chỉ định<br>
+			<b>14. b</b>: xác định đoạn văn bản được in đậm<br>
+			<b>15. blockquote</b>: xác định một đoạn trích dẫn từ một website khác<br>
+			<b>16. code</b>: xác định một đoạn văn bản mang ý nghĩa là các mã lệnh<br>
+			<b>17. del</b>: xác định văn bản đã bị xóa từ một tài liệu<br>
+			<b>18. em</b>: định nghĩa nhấn mạnh văn bản<br>
+			<b>19. big</b>: xác định một đoạn văn bản có kích thước chữ to hơn văn bản bình thường<br>
+			<b>20. i</b>: xác định một đoạn văn bản được định dạng kiểu chữ in nghiêng<br>
+			<b>22. ins</b>: định nghĩa một đoạn văn bản đã được chèn thêm thay thế vào tài liệu<br>
+			<b>23. kbd</b>: là một thẻ dùng để nhấn mạnh, dùng để định nghĩa đầu cào bàn phím<br>
+			<b>24. mark</b>: đánh dấu/ làm nổi bật cho văn bản<br>
+			<b>25. meter</b>: định nghĩa một thước đo lường với một khoảng đã biết<br>
+			<b>26. progress</b>: tạo một thanh tiến trình<br>
+			<b>27. pre</b>: định nghĩa văn bản định sẵn<br>
+			<b>28. q</b>: xác định một câu trích dẫn ngắn<br>
+			<b>29. s</b>: định nghĩa văn bản đó không còn đúng<br>
+			<b>30. small</b>: xác định một đoạn văn bản có kích thước chữ nhỏ hơn bình thường<br>
+			<b>31. strong</b>: xác định đoạn văn bản được in đậm<br>
+			<b>32. sub</b>: định nghĩa văn bản giống như chỉ số dưới<br>
+			<b>33. sup</b>: hiển thị văn bản giống số mũ<br>
+			<b>32. time</b>: đánh dấu những phần văn bản là: thời gian, ngày tháng, ngày lễ<br>			
+			<b>33. u</b>: tạo một đường gạch chân lên văn bản<br>
+			<b>34. wbr</b>: ngắt bớt ký tự của một từ xuống dòng<br>
+			<b>35. frame</b>: xác định một khung trong một bộ khung<br>
+			<b>36. frameset</b>: xác định một bộ khung<br>
+			<b>37. noframes</b>: xác định một nội dung sẽ được hiển thị khi trình duyệt không hỗ trợ thẻ frame<br>
+			<b>38. iframe</b>: nhúng một trang web khác vào trang web hiện tại<br>
+			<b>39. img</b>: chèn hình ảnh vào trang web<br>
+			<b>40. map & area</b>: tạo một bản đồ ảnh<br>
+			<b>41. figcaption</b>: tạo một tiêu đề cho nội dung được đặt bên trong phần tử figure<br>
+			<b>42. figure</b>: xác định một nội dung cần được tách biệt rõ ràng<br>
+			<b>II. Thẻ form trong HTML</b><br>
+			<b>1. Text input: </b><br>
+			<b>a. Single line</b>: chúng ta sử dụng thẻ input với giá trị text
+			<form>
+			First name: <input type = "text" name = "first name"/><br>
+			Last name: <input  type = "text" name = "last name"/><br>		
+			</form>
+			<b>b. Password input</b>: chúng ta sử dụng để người dùng nhập vào giá trị passwword bằng cách sử dụng type là password
+			<form>
+			User ID: <input type = "text" name = "userID"/><br>
+			Password: <input type = "password" name = "password"/><br>
+			</form>
+			<b>c.  Multiple line</b>: cho phép người dùng nhập một đoạn văn bản dài, và chúng ta sử dụng thẻ textarea<br>
+			<form>Ghi chú: <br>
+			<textarea rows = "15" cols = "100" name = "ghi chú"> Nhập ghi chú vào đây...			
+			</textarea></form>
+			<b>2. Checkbox</b>: chúng ta sử dụng type = "checkbox" để tạo ra các check box trên form như sau:
+			<form>
+			Thịt gà <input type = "checkbox" name = "thịt gà" value = "on">
+			Thịt lợn <input type = "Checkbox" name = "thịt lợn" value "on">
+			</form>
+			<b>3. Radio</b>: để tạo ra các nút radio thì chúng ta sử dụng type = radio như sau:
+			<form>
+			Đồng ý <input type = "radio" name = "lựa chọn" value = "1">
+			Không đồng ý <input type = "radio" name = "lựa chọn" value ="0">
+			</form>
+			<b>4. Select box</b>: Để tạo select box chúng ta sử dụng thẻ select và option<br>
+			Tên học viên: <select name = "dropdown">
+			<option value = "Bùi Quang Vinh" selected> Bùi Quang Vinh </option>
+			<option value = "Đỗ Mạnh Tường"> Đỗ Mạnh Tường </option>
+			<option value = "Nguyễn Trọng Đạt"> Nguyễn Trọng Đạt </option>
+			<option value = "Phạm Trường Sinh"> Phạm Trường Sinh </option>
+			<option value = "Ngô Trí Thao"> Ngô Trí Thao </option>
+			<option value = "Đào Ngọc Huy"> Đào Ngọc Huy </option>
+			</select><br><br>
+			<b>5. Upload file</b>: để upload một file đính kèm theo form ta sử dụng type = file như sau:
+			<form>
+			<input type = "file" name = "fileupload" accept = "image/*"/>
+			</form>
+			<b>6. Ẩn một control trên form</b>: Để ẩn một control trên form chúng ta sử dụng thuộc tính type = hidden
+			<form>
+			<input type = "hidden" name = "pagename" value = "10"/>
+			<input type = "submit" name = "Submit" value = "Submit"/>
+			<input type = "reset" name = "reset" value = "Reset"/>
+			</form><br>
+			7. Button<br>
+			Có 4 loại button trong form như sau. Chúng ta sử dụng:<br>
+			- type = submit để đẩy các thông tin của người dùng lến server<br>
+			- type = reset để xóa hết các trường trong form<br>
+			- type = button để tạo ra một nút<br>
+			- type = image để tạo ra một nút nhưng có hình ảnh ở trên nút bấm<br>
+			<input type = "submit" name = "submit" value = "Submit"/>
+			<input type = "reset" name = "reset" value = "Reset"/>
+			<input type = "button" name = "ok" value = "OK"/>
+			<br>
+			<input type = "image" name = "imagebutton" src = "D:\truongsinh\cuộc sống\tha-tim-facebook_121246151.gif"/>
+			</p>
+			<b> III. Bổ sung thêm một số thẻ trong HTML</b><br>
+			<b>1. Thẻ khối</b><br>
+				 <b>a. div </b>: dùng để định nghĩa nội dung mức khối, chia tài liệu thành các phần có liên quan với nhau
+			<div align = "center">Sự ủng hộ với lập trường của Trump về kinh tế, nhập cư cũng như quan điểm "nước Mỹ trên hết" trở thành động lực giúp ông dễ dàng đánh bại các đối thủ trong vòng sơ
+bộ ở Iowa. Thời tiết tại Iowa những ngày gần đây "lạnh đến mức nguy hiểm", với nhiệt độ liên tục giảm sâu sau nhiều ngày tuyết rơi. </div>Nhưng điều đó không ngăn được hàng trăm người
+hôm 14/1 đổ ra đường để gặp cựu tổng thống Donald Trump ở Indianola, thị trấn nhỏ phía nam Des Moines, thủ phủ bang Iowa ở trung tây nước Mỹ. Một ngày trước cuộc họp kín ở Iowa,
+họ đội mũ, mặc áo in khẩu hiệu "Làm nước Mỹ vĩ đại Trở lại" tham gia buổi mít tinh vận động tranh cử của cựu tổng thống.<br>
+				<b>b. span </b>: Định nghĩa nội dung trong dòng (một khoảng các ký tự)<br>
+				<span style = "font-size: 25; color: red">Hơn ba năm sau khi những người ủng hộ Trump xông vào tòa nhà quốc hội Mỹ ở Washington để ngăn chặn việc chứng nhận chiến
+thắng của ông Joe Biden, động lực ủng hộ mà các đảng viên Cộng hòa dành cho ông vẫn ổn định</span>. Điều đó không thay đổi bất chấp loạt vụ truy tố mà Trump đang đối mặt. <i>Sức
+ảnh hưởng mạnh mẽ của cựu tổng thống Mỹ càng trở nên rõ nét hơn bao giờ hết khi các hãng truyền thông Mỹ đồng loạt dự báo ông Trump giành chiến thắng trong vòng sơ bộ của đảng Cộng
+hòa tại bang Iowa ngày 15/1, chỉ 30 phút sau khi cuộc bỏ phiếu bắt đầu.</i> Đây là cuộc họp kín đầu tiên để bầu chọn ứng viên đảng Cộng hòa tranh cử tổng thống năm 2024. <sub>Ông
+Trump giành được hơn 51% phiếu ủng hộ tại Iowa, vượt xa các đối thủ phía sau là Thống đốc Florida Ron DeSantis và cựu đại sứ Mỹ tại Liên Hợp Quốc Nikki Haley với lần lượt 21,2% và
+19%. Doanh nhân Vivek Ramaswamy, người xếp thứ tư với 7,7% số phiếu, đã tuyên bố từ bỏ tranh cử và quay sang ủng hộ Trump. </sub>George Hutton, người ủng hộ ông Trump tại hạt
+Madison, cho rằng các đối thủ của cựu tổng thống trong đảng Cộng hòa chỉ đang "lãng phí thời gian". <sup>"Tôi nghĩ ông Trump sẽ thắng áp đảo hơn những gì họ dự đoán", Hutton nói.
+</sup> Trong cuộc mít tinh hôm 14/1, những người tham gia đã xếp hàng suốt 15 phút dưới cái lạnh cắt da cắt thịt bên ngoài trường cao đẳng cộng đồng nơi ông Trump phát biểu.
+<em>Khi vào bên trong, nhiều người thậm chí không được gặp trực tiếp cựu tổng thống, mà phải ngồi xem bài phát biểu qua màn hình lớn, do hội trường đã kín chỗ.</em><br>
+			<b>2. Danh sách</b><br>
+			Danh sách dùng để nhóm dữ liệu có logic với nhau, thường có.<br>
+			+ Danh sách không có thứ tự: Danh sách được nằm trong cặp thẻ ul - /ul, mỗi phần tử trong danh sách được đánh dấu bằng thẻ li<br>
+			Các tháng trong năm: 
+			<ul>
+				<li>Tháng Một<br>
+				Thuộc tính Type dùng để định dạng các bullets. Thuộc tính Type có 3 giá trị: disc, circle, square.<br>
+					<ul>
+						<li type = "disc"> Tuần 1
+						<li type = "square"> Tuần 2
+						<li type = "circle"> Tuần 3						
+					</ul>
+				<li>Tháng Hai<br>
+				Ta có thể sử dụng các danh sách lồng nhau
+					<ul>
+						<li> Đọc sách
+						<li> Thực hành
+					</ul>
+				<li>Tháng Ba
+				<li>Tháng Tư
+				<li>Tháng Năm
+				<li>Tháng Sáu
+				<li>Tháng Bảy
+				<li>Tháng Tám
+				<li>Tháng Chín
+				<li>Tháng Mười
+				<li>Tháng Mười Một
+				<li>Tháng Mười Hai
+			</ul>
+			+ Danh sách có thứ tự: Nằm trong cặp ol - /ol<br>
+			<ol>
+				<li> Thứ hai
+					<ol>
+						<li> Công nghệ phần mềm
+						<li> Công nghệ web
+					</ol>					
+				<li> Thứ ba
+					<ol>
+						<li> Ngôn ngữ lập trình 2
+						<li> Đảm bảo và an toàn thông tin
+					</ol>
+				<li> Thứ tư
+					<ol>
+						<li> Nghỉ
+						<li> Phân tích và thiết kế giải thuật
+					</ol>
+				<li> Thứ năm<br>
+				Dùng thuộc tính Type để định dạng kiểu thứ tự.<br>
+					<ol>
+						<li type = "a"> Lý thuyết hệ điều hành
+						<li> Ngôn ngữ lập trình 2
+						<li> Nghỉ
+					</ol>
+				<li> Thứ sáu
+					<ol type = "A">
+					<li> Lập trình hướng đối tượng
+					<li> Nghỉ
+					<li> Ngôn ngữ lập trình 2
+					</ol>
+				<li> Thứ bảy
+					<ol type = "I">
+					<li> Lý thuyết hệ điều hành
+					<li> Phân tích và thiết kế giải thuật
+					<li> Nghỉ
+					</ol>
+				<li> Chủ nhật<br>
+					Có thể lồng hai loại danh sách với nhau. Start để xác định số khởi đầu danh sách
+					<ol type = "A" start = "3">
+						<li> Ngủ
+						<li> Ăn chơi
+						<li> Giặt đồ
+					</ol>
+			</ol>
+			+ Danh sách định nghĩa<br>
+			<b>3. Thẻ font</b>: Dùng để định dạng font chữ, sử dụng các thuộc tính sau:<br>
+				<b>+ color </b>: màu chữ (tên màu hoặc mã thập lục phân)<br>
+				<b>+ size </b>: kích thước font (từ 1 đến 7)<br>
+				<b>+ face </b>: kiểu font chữ<br>			
+			Nhiều người Mỹ cho rằng nhiệm kỳ của Trump chỉ gắn liền với hỗn loạn, nhưng trong mắt các cử tri ủng hộ cựu tổng thống, quãng thời gian ông điều hành Nhà Trắng là tuyệt
+vời hơn cả. <font color = "red" face = "Arial" size = "5">Chiến thắng quyết định của Trump ở Iowa đã cho thấy quan hệ giữa ông với những người ủng hộ trong đảng Cộng hòa là một
+trong những động lực bền bỉ nhất trên chính trường Mỹ, giới chuyên gia đánh giá. </font>Động lực đó đã giúp ông thắng chóng vánh ở Iowa và có thể tạo bệ phóng cho Trump trong chặng
+đường tranh cử tiếp theo. Những người ủng hộ Trump nêu ra ba lý do chính khiến họ tiếp tục đứng về phía ông, gồm kinh tế, vấn đề nhập cư và tình trạng bất ổn toàn cầu.<br>
+			<b>4. Thẻ hr:</b> Vẽ đường thẳng nằm ngang</b><br>
+				<b>+ align:<b> canh lề đường thẳng</b><br>
+				<b>+ width:</b> độ dài đường thẳng</b><br>
+				<b>+ size:</b> độ dày đường thẳng</b><br>
+				<b>+ noshade:</b> không đổ bóng</b><br>
+				<hr align = "left" width = "225" size = "2" noshade>
+			<b>5. Thẻ img:</b>:Chèn ảnh vào trang web<br>
+				<b>+ src</b>: chỉ dẫn đường ảnh<br>
+				<b>+ alt</b>: chuỗi text thay thế khi không có ảnh<br>
+				<b>+ align</b>: canh lề của ảnh với văn bản xung quanh: trái (left), phải (right), trên (top), dưới (bottom), giữa (middle)<br>
+				<b>+ height</b>: chiều cao của ảnh<br>
+				<b>+ width</b>: chiều rộng của ảnh<br>
+			<img align = "right" src = "https://i1-vnexpress.vnecdn.net/2024/01/15/33XN88Q-highres-6384-1705292973.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=Nht6LC7H24BT9Br_xT6hHQ"  alt = "Donald Trump" height = "300"/><br>
+			<img align = "middle" src = "D:\truongsinh\cuộc sống\73472553_719540868545029_4550038948373594112_n.jpg" alt = "công chúa" height = "300"/>
+			<img align = "left" src = "D:\truongsinh\cuộc sống\125081986_1029027487596364_4276904781491170694_n.jpg" alt = "công chúa" height = "300"/><br>
+			<b>6. Thẻ marquee</b>: cho phép khai báo mọt chuỗi chuyển động theo nhiều hướng khác nhau trên trang web.<br>
+			Có 4 chiều di chuyển chuỗi tuy thuộc vào tham số hướng là up, down, back, right.<br>
+			<b> + behavior</b>: chỉ định hành vi di chuyển của marquee bằng một trong 3 giá trị sau: scroll, slide, alternate<br>
+			<b> + direction</b>: chỉ định hướng di chuyển của thẻ: left, right up, down<br>
+			<b> + width</b>: chiều rộng<br>
+			<b> + height</b>: chiều cao<br>						
+			<b> + bgcolor</b>: màu nền của marquee<br>
+			<marquee width = "1500" height = "40" behavior = "scroll" bgcolor="sky-blue">  
+				Phạm Trường Sinh<br>
+				Bùi Thanh Thảo
+			</marquee>
+			<marquee width = "1500" height = "40" behavior = "alternate" direction = "right" bgcolor="sky-blue">  
+				Phạm Trường Sinh<br>
+				Bùi Thanh Thảo
+			</marquee>
+			<marquee width = "1500" height = "40" behavior = "slide" bgcolor="sky-blue">  
+				Phạm Trường Sinh<br>
+				Bùi Thanh Thảo
+			</marquee><br>
+			<b>7. Tạo bảng</b>: dùng thẻ table, trong thẻ table ta định nghĩa các thẻ<br>
+			<b>td</b>: định nghĩa một ô
+			<b>tr</b>: định nghĩa hàng
+			<b>th</b>: định nghĩa tiêu đề
+			<b>caption</b>: định nghĩa tiêu dề bảng
+			<b>border</b>: định dạng đường viền
+			<b>width</b>: 			
+			<caption>Bảng</caption>
+			<table border = "2">
+				<tr>
+					<th>Ngày</th>
+					<th>Mở</th>
+					<th>Cao</th>
+					<th>Thấp</th>
+					<th>Đóng</th>	
+				</tr>
+				<tr>
+					<td>17/01/2024</td>
+					<td>21.60</td>
+					<td>21.80</td>
+					<td>21.30</td>
+					<td>21.50</td>
+				</tr>
+				<tr>
+					<td>16/01/2024</td>
+					<td>21.45</td>
+					<td>21.50</td>
+					<td>21.15</td>
+					<td>21.50</td>
+				</tr>
+				<tr>
+					<td>15/01/2024</td>
+					<td>21.50</td>
+					<td>21.90</td>
+					<td>21.40</td>
+					<td>21.45</td>
+				</tr>
+			</table>
+			<table border = "2">
+			<caption>Bài tập</caption>
+			<tr>
+				<th rowspan = "2"> Họ tên học viên </th>
+				<th rowspan = "2"> Lớp </th>
+				<th rowspan = "2"> Giới tính </th>
+				<th colspan = "3"> Kết quả thi </th>				
+			</tr>			
+				<tr>
+					<th>Toán</th>
+					<th>Lý</th>
+					<th>Hóa</th>
+				</tr>			
+			<tr>
+				<td>Đào Ngọc Huy</td>
+				<td>CNTT13</td>
+				<td>Nam</td>
+				<td>7.0</td>
+				<td>7.5</td>
+				<td>8.0</td>
+			</tr>
+			<tr>
+				<td>Lê Thu Phương</td>
+				<td>CNTT11</td>
+				<td rowspan = "2">Nữ</td>
+				<td>8.5</td>
+				<td>9.0</td>
+				<td>9.5</td>
+			</tr>
+			<tr>
+				<td>Bùi Thanh Thảo</td>
+				<td>CNTT12</td>
+				<td>10.0</td>
+				<td>7.0</td>
+				<td>7.5</td>
+			</tr>
+			</table>
+			<b>8. Thẻ liên kết</b>: <br>
+				<a href = "https://www.google.com"/> Tìm kiếm </a><br>
+				<a href = "D:\truongsinh\học\kỳ 2\công nghệ web\công_chúa.html"> công chúa </a><br>
+				<a href = "https://www.facebook.com/profile.php?id=100014673661132"> <img height = "200" src = "https://scontent.fhan7-1.fna.fbcdn.net/v/t39.30808-6/257472954_1276274579538319_6032166271664419883_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeF99NuIrZMjHZ2wklraGdMjzQPZ3Y6sFE3NA9ndjqwUTWTLn7DhgpWga68jGiLCzZFrxYb4dt3BmROOJ-fT8Y6r&_nc_ohc=oK_Vn2Spc6kAX-YSJs9&_nc_ht=scontent.fhan7-1.fna&oh=00_AfAjQZOocz8HPA3GVEAuFeRBUaULXmQLc_NvaiybU9LohQ&oe=65AD67D9"></a><br>
+				
+			<b>9. Phương thức get, post của form</b>
+				<form method="post" action="https://httpbin.org/anything">
+				Tên đăng nhập: <input type = "text" name = "userID"/><br>
+				Password: <input type = "password" name = "password"/><br>
+				<input type="submit" name="Submit" value="Submit"/>
+				</form>
+<a href = "https://xuanthulab.net/the-form-trong-html.html"> mai đọc tiếp</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>Tính cách hướng ngoại sôi nổi của Trump hay những rắc rối pháp lý mà ông đang đối mặt cũng góp phần tạo nên sức hấp dẫn cho ứng viên hàng đầu của đảng Cộng hòa. Chính quyền Tổng thống Biden vẫn khẳng định nền kinh tế Mỹ hoàn toàn ổn, nhấn mạnh đến tỷ lệ thất
+nghiệp thấp, đồng thời lưu ý rằng tình trạng lạm phát tàn phá nền kinh tế toàn cầu trong đại dịch Covid-19 đang được kiểm soát. Nhưng với cử tri ở Iowa, những khó khăn kinh tế mà
+họ gặp phải, cùng với lãi suất cao đã vẽ nên một bức tranh hoàn toàn khác. "Chúng ta cần thứ gì đó khác với những gì chúng ta đang làm bây giờ. Nó không hiệu quả. Tôi từng kiếm
+được rất nhiều tiền, nhưng giờ tôi khánh kiệt", David Brunell, 32 tuổi, cư dân tại Iowa, nói. "Nó nói lên rất nhiều điều về nền kinh tế của chúng ta đang ở đâu". Khi được hỏi tại
+sao không cân nhắc một gương mặt khác, nhiều người nói rằng ông Trump là chính trị gia nổi tiếng và họ đã thấy cách ông điều hành đất nước. "Chúng tôi muốn đất nước trở lại như
+xưa. Chúng tôi muốn quay lại như thời ông Trump còn là tổng thống và tốt hơn nữa", Hutton cho biết. Mặc dù chính sách đối ngoại hiếm khi được chú ý trong các cuộc bầu cử gần đây
+tại Mỹ, một số người ủng hộ ông Trump đã nhắc đến cuộc xung đột ở Ukraine và Gaza như là hệ quả từ những chính sách mà họ cho là "tồi tệ" của Tổng thống Biden. Khi còn là tổng
+thống, Trump rất ủng hộ Israel. Ông chuyển đại sứ quán Mỹ đến Jerusalem, chấm dứt tài trợ của Mỹ cho cơ quan Liên Hợp Quốc về người tị nạn Palestine (UNRWA), đồng thời làm trung
+gian cho những thỏa thuận ngoại giao giữa Israel với các nước Arab. Tổng thống Biden cũng có cam kết tương tự với Israel. Nhưng đối với những người ủng hộ ông Trump, tình trạng
+hỗn loạn trong khu vực không bắt nguồn từ vấn đề chính sách, mà nằm ở tính cách. Nghị sĩ Jim Jordan hôm 14/1 gợi ý rằng chiến sự ở Ukraine sẽ không xảy ra nếu ông Trump còn nắm
+quyền. "Chúng ta đã đi từ một Tổng thống Trump, người luôn thể hiện sức mạnh ra toàn thế giới, ở Phòng Bầu dục để đến với Joe Biden", Jordan tuyên bố trước đám đông người ủng hộ
+cựu tổng thống Mỹ.Blaine Melvin, nhân viên trông coi sân cỏ cho trường đại học tại địa phương, đã than thở về tình hình thế giới và đất nước dưới thời Tổng thống Biden. "Đây là
+thời điểm chạm gần nhất tới Thế chiến III mà tôi từng chứng kiến", Melvin nói.</p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div align = "Right">Việc cấp điện từ lưới quốc gia bằng tuyến cáp ngầm 110 kV vượt biển là phương án tối ưu, đảm bảo yêu cầu cấp điện ổn định, an toàn cho lưới điện trên đảo, theo Bộ trưởng Hồ Đức Phớc. </div>Tổng mức đầu tư dự án này khoảng 4.950 tỷ đồng, trong đó vốn từ ngân sách trung ương khoảng 2.526 tỷ, còn lại vốn tự có của EVN, gần 2.424 tỷ đồng.<br>
+			<span style = "font-size:20; color:blue">Thẩm tra các đề xuất của Chính phủ, Ủy ban Tài chính ngân sách của Quốc hội cho hay đa số ý kiến tại cơ quan này thống nhất trình Quốc hội cho phép dùng hơn 63.720 tỷ đồng Kế hoạch đầu tư công trung hạn vốn ngân sách Trung ương 2021-2025 cho các dự án đầu tư công. </span>
+			<b>Tuy nhiên, cơ quan thẩm tra nhận thấy, việc xác định vốn, khả năng cân đối của một số trong 33 dự án, nhiệm vụ sẽ được bố trí vốn là "thiếu chắc chắn".</b>
+			<i> Do đó, Ủy ban Tài chính ngân sách đề nghị Chính phủ chịu trách nhiệm về số liệu trình Quốc hội và giải trình rõ hơn về nguồn vốn, khả năng cân đối tiền cho các dự án này. </i>
+			<sub>Với danh mục dự án chưa đủ thủ tục đầu tư với số vốn dự kiến rót gần 30.570 tỷ đồng, Ủy ban này đề nghị Chính phủ hoàn thiện thủ tục đầu tư. </sub>
+			Trường hợp giữa hai kỳ họp Quốc hội, Chính phủ sẽ báo cáo Ủy ban Thường vụ Quốc hội xem xét, quyết định và báo cáo tại kỳ họp gần nhất.
+			<sup>Riêng dự án có tổng vốn thuộc tiêu chí dự án quan trọng quốc gia, Chính phủ cần báo cáo Quốc hội xem xét, quyết định chủ trương đầu tư của dự án theo Luật Đầu tư công. </sup>
+			Với vốn rót cho EVN kéo điện ra Côn Đảo, Ủy ban Tài chính ngân sách đồng ý và đề nghị Thủ tướng điều chỉnh quyết định phê duyệt chủ trương đầu tư, giao tập đoàn này là cơ quan quyết định đầu tư dự án.
+			Dưới này để chơi cho vui thôi, thích viết gì thì viết
+			<p>Có người yêu<input type = "radio" name = "lc" value = "có người yêu"/></p>
+			<p>Không có người yêu<input type = "radio" name = "lc" value = "Không người yêu"/>
+			<p>Đợi Thao giới thiệu<input type = "radio" name = "lc" value = "Đợi Thao giới thiệu"/></p>
+			<div align = "center" style = "font-size: 30; color: green" ><b> Cây Trường Sinh GREEN LENS cây phong thủy để bàn mang lại sức khỏe dồi dào, thu hút may mắn</b></div><br>
+			<caption><b><p align = "left" color = "green">Cây Trường Sinh</p></b></caption>
+			
+		</body>	
+</html>
